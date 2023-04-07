@@ -12,14 +12,12 @@ package abfa;
 public class RoundFactory extends AbstractFactory{
     @Override
     public IFigure giveFigure(String figureName){
-        if (figureName.equalsIgnoreCase("Ball")){
+        if (figureName.equalsIgnoreCase("Ball"))
             return new Ball();
-    }
-        else if(figureName.equalsIgnoreCase(anotherString:"Ellipsoid")){
+        else if(figureName.equalsIgnoreCase("Ellipsoid"))
             return new Ellipsoid();
-    }
-        else {
+        else 
             return null;
-    }
+    
 }
 }

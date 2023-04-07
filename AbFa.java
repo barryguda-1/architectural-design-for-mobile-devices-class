@@ -29,9 +29,11 @@ public class AbFa {
         IFigure fig3 = figureFactory2.giveFigure("Ball");
         fig3.createFigure();
         
+       IFigure fig4 = figureFactory2.giveFigure("Ellipsoid");
+       fig4.createFigure(); 
         
-        
-        
+       IFigure fig5 = figureFactory2.giveFigure("Ellipsoid");    
+       fig4.figureColor(); 
         
     }
     

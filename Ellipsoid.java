@@ -17,7 +17,7 @@ public class Ellipsoid implements IFigure {
 
     @Override
     public void figureColor(){
-        System.out.println("New Figure Color!");
+        System.out.println("New Ellipsoid Color!");
     }
     
     
